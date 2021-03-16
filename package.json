@@ -1,0 +1,31 @@
+{
+  "name": "apizeepsproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autocompleter": "^6.1.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.0",
+    "express-formidable": "^1.2.0",
+    "form-data": "^3.0.0",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.4.17",
+    "pg": "^8.5.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.3.5",
+    "twilio": "^3.54.1"
+  },
+  "engines": {
+    "node": "10.13.0",
+    "npm": "6.8.0"
+  }
+}
